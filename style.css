@@ -1,0 +1,67 @@
+:root {
+  --Nutmeg: hsl(14, 45%, 36%);
+  --DarkRaspberry: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --RoseWhite: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --LightGrey: hsl(30, 18%, 87%);
+  --WengeBrown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+  --outfit: "Outfit", sans-serif;
+  --YoungSerif: "Young Serif", serif;
+}
+
+/* bghero */
+.bg-hero {
+  background-color: var(--Eggshell);
+
+}
+.border-radius{
+    border-radius: 30px;
+}
+.rounded-30{
+    border-radius: 20px;
+}
+.under_line{
+    height:2px;
+    background-color: var(--LightGrey);
+}
+/* fonts */
+.font-outfit-400 {
+  font-family: var(--outfit);
+  font-weight: 400;
+}
+.font-YoungSerif-400 {
+  font-family: var(--YoungSerif);
+  font-weight: 400;
+}
+.font-YoungSerif-600 {
+  font-family: var(--YoungSerif);
+  font-weight: 600;
+}
+.font-YoungSerif-700 {
+  font-family: var(--YoungSerif);
+  font-weight: 700;
+}
+
+
+
+/* text color */
+.text-DarkRaspberry{
+    color: var(--DarkRaspberry);
+}
+.text-WengeBrown{
+    color:var(--WengeBrown);
+}
+.text-Nutmeg{
+    color: var(--Nutmeg);
+}
+/* bg color */
+.bg-DarkRaspberry{
+    background-color: hsl(334, 68%, 94%);
+}
+
+.table-border{
+    height: 2px;
+    background-color: var(--LightGrey);
+}
